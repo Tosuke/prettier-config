@@ -1,0 +1,23 @@
+{
+  "name": "@tosuke/prettier-config",
+  "version": "1.0.0",
+  "main": "prettier.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/Tosuke/prettier-config.git"
+  },
+  "author": "Tosuke <tasukeprg@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "fmt": "prettier --write '*.{js,json}'"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run fmt"
+    }
+  },
+  "devDependencies": {
+    "husky": "^1.0.0-rc.13",
+    "prettier": "^1.13.7"
+  }
+}
