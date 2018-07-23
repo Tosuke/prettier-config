@@ -1,10 +1,10 @@
 {
   "name": "@tosuke/prettier-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "prettier.config.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com/Tosuke/prettier-config.git"
+    "url": "git+ssh://git@github.com/Tosuke/prettier-config.git"
   },
   "author": "Tosuke <tasukeprg@gmail.com>",
   "license": "MIT",
